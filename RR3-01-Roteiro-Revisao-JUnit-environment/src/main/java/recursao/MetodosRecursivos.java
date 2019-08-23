@@ -44,12 +44,22 @@ public class MetodosRecursivos {
 	}
 
 	public int countNotNull(Object[] array) {
-		int result = 0;
-		// TODO IMPLEMENTE AQUI O CODIGO QUE CONTA (USANDO RECURSAO) A
-		// QUANTIDADE DE ELEMENTOS NAO NULOS
-		// DE UM ARRAY DE OBJETOS RECEBIDO COMO PARAMETRO
-		
-		return result;
+		return countNotNull(array, 0);
+	}
+	
+	public int countNotNull(Object[] array, int i) {
+		int naoNulos = 0;
+		if(i == array.length - 1) {
+			if(array[i] != null)
+				naoNulos += 1;
+		}
+		else {
+			if(array[i] != null)
+				naoNulos = 1 + countNotNull(array, i + 1);
+			else
+				naoNulos = countNotNull(array, i + 1);
+		}
+		return naoNulos;
 	}
 
 	public int potenciaDe2(int expoente) {
@@ -61,19 +71,23 @@ public class MetodosRecursivos {
 	}
 
 	public double progressaoAritmetica(double termoInicial, double razao, int n) {
-		double result = 0;
-		// TODO IMPLEMENTE SEU CODIGO (USANDO RECURSAO) DE ENCONTRAR O n-ESIMO
-		// TERMO
-		// DA PROGRESSAO ARITMETICA, DADO O TERMO INICIAL E A RAZAO
+		double result = termoInicial;
+		if(n == 1) {
+			
+		}		
+		else result = progressaoAritmetica(termoInicial, razao, n - 1) + razao;
+		
 		return result;
 	}
 
-//	[1, 2, 4, 8, 16, 32]
+
 	public double progressaoGeometrica(double termoInicial, double razao, int n) {
-		double result = 1;
-		// TODO IMPLEMENTE SEU CODIGO (USANDO RECURSAO) DE ENCONTRAR O n-ESIMO
-		// TERMO
-		// DA PROGRESSAO GEOMETRICA, DADO O TERMO INICIAL E A RAZAO
+		double result = termoInicial;
+		if(n == 1) {
+			
+		}
+		else result = progressaoGeometrica(termoInicial, razao, n - 1) * razao;
+		
 		return result;
 	}
 	
