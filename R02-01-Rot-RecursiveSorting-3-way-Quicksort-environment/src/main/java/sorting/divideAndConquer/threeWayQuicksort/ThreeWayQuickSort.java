@@ -1,6 +1,7 @@
 package sorting.divideAndConquer.threeWayQuicksort;
 
 import sorting.AbstractSorting;
+import util.Util;
 
 public class ThreeWayQuickSort<T extends Comparable<T>> extends
 		AbstractSorting<T> {
@@ -25,7 +26,27 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 	 **/
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		
+		if (leftIndex < rightIndex && !(array == null)) {
+			int[] aux = partition(array, leftIndex, rightIndex);
+			sort(array, leftIndex, aux[0] - 1);
+			sort(array, aux[1] + 1, rightIndex);
+		}
+	}
+
+	private int[] partition(T[] array, int leftIndex, int rightIndex) {
+		int auxLeft = leftIndex;
+		int auxRight = rightIndex;
+		T pivot = array[leftIndex];
+		int i = leftIndex + 1;
+		while (i <= auxRight) {
+			if (array[i].compareTo(pivot) < 0)
+				Util.swap(array, auxLeft++, i++);
+			else if (array[i].compareTo(pivot) > 0)
+				Util.swap(array, i, auxRight--);
+			else i++;
+		}
+		int[] aux = { auxLeft, auxRight };
+		return aux;
 	}
 
 }
