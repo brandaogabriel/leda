@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T17:15:00.883-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 150.165.42.148 at 02-09-2019 17*15*00</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T22:02:01.378-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 192.168.0.105 at 02-09-2019 22*02*01</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T22:02:44.820-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 192.168.0.105 at 02-09-2019 22*02*44</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T22:04:23.687-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 192.168.0.105 at 02-09-2019 22*04*23</message>
+</record>
