@@ -17,7 +17,7 @@ public class StudentStackTest {
 	@Before
 	public void setUp() throws StackOverflowException {
 
-		getImplementations();
+		getImplementations(); 
 
 		// Pilha com 3 elementos não cheia.
 		stack1.push(1);
@@ -66,6 +66,7 @@ public class StudentStackTest {
 
 	@Test(expected = StackOverflowException.class)
 	public void testPushComErro() throws StackOverflowException {
+		stack1.push(new Integer(5));
 		stack1.push(new Integer(5)); // levanta excecao apenas se o tamanhonao
 										// permitir outra insercao
 	}
@@ -82,6 +83,9 @@ public class StudentStackTest {
 
 	@Test(expected = StackUnderflowException.class)
 	public void testPopComErro() throws StackUnderflowException {
+		stack1.pop();
+		stack1.pop();
+		stack1.pop();
 		assertEquals(new Integer(3), stack1.pop()); // levanta excecao apenas se
 													// stack1 for vazia
 	}

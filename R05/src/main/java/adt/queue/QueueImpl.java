@@ -11,7 +11,7 @@ public class QueueImpl<T> implements Queue<T> {
 		tail = -1;
 	}
 
-	@Override
+	@Override 
 	public T head() {
 		T element = null;
 		if(!isEmpty())
