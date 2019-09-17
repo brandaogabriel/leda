@@ -7,3 +7,13 @@
   <level>FINE</level>
   <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 150.165.42.154 at 16-09-2019 17*21*05</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-16T22:22:11.979-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 192.168.0.105 at 16-09-2019 22*22*11</message>
+</record>
