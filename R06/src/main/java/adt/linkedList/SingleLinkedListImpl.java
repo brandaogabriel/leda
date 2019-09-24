@@ -17,7 +17,7 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	public int size() {
 		int size = 0;
 		SingleLinkedListNode<T> aux = head;
-		while(!aux.isNIL()) {
+		while (!aux.isNIL()) {
 			size++;
 			aux = aux.getNext();
 		}
@@ -27,31 +27,28 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	@Override
 	public T search(T element) {
 		T saida = null;
-		if(element != null && !isEmpty()) {
-			if(head.getData().equals(element)) {
-				saida = head.getData();
-			}
-			else {
-				SingleLinkedListNode<T> aux = head;
-				while(!aux.isNIL()) {
-					if(aux.getData().equals(element)) {
-						saida = aux.getData();
-					}
-					aux = aux.getNext();
+		if (element != null && !isEmpty()) {
+
+			SingleLinkedListNode<T> aux = head;
+			while (!aux.isNIL()) {
+				if (aux.getData().equals(element)) {
+					saida = aux.getData();
 				}
+				aux = aux.getNext();
 			}
+
 		}
 		return saida;
 	}
 
 	@Override
 	public void insert(T element) {
-		if(element != null) {
+		if (element != null) {
 			SingleLinkedListNode<T> aux;
 			aux = head;
-			while(!aux.isNIL()) {
+			while (!aux.isNIL()) {
 				aux = aux.getNext();
-				}
+			}
 			aux.setData(element);
 			aux.setNext(new SingleLinkedListNode<>());
 		}
@@ -59,19 +56,22 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 
 	@Override
 	public void remove(T element) {
-		if(element != null && !isEmpty()) {
-			if(head.getData().equals(element)) {
-				head = head.getNext();
+		if (element != null && !isEmpty()) {
+			
+			if(this.head.data.equals(element)) {
+				this.head = head.getNext();
 			}
 			else {
 				SingleLinkedListNode<T> aux = head;
-				while(!aux.isNIL()) {
-					if(aux.getData().equals(element)) {
-						aux = aux.next;
-					}
+				SingleLinkedListNode<T> previous = head;
+				while(!aux.isNIL() && !aux.getData().equals(element)) {
+					previous = aux;
 					aux = aux.getNext();
 				}
-			}		
+				if(!aux.isNIL()) {
+					previous.next = aux.next;
+				}	
+			}
 		}
 	}
 
@@ -81,7 +81,7 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 		T[] saida = (T[]) new Comparable[size()];
 		int count = 0;
 		SingleLinkedListNode<T> aux = head;
-		while(!aux.isNIL()) {
+		while (!aux.isNIL()) {
 			saida[count++] = aux.getData();
 			aux = aux.getNext();
 		}
