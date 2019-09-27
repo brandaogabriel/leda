@@ -15,35 +15,47 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 
 	@Override
 	public void push(T element) throws StackOverflowException {
-		if(element != null){
+		if(element != null)
 
+			if(!isFull()) this.top.insert(element);
 
-		}
-
+		else throw new StackOverflowException();
 	}
 
 	@Override
 	public T pop() throws StackUnderflowException {
-		// TODO Implement the method
-		throw new UnsupportedOperationException("Method not implemented");
+		T element = null;
+
+		if(isEmpty()) throw new StackUnderflowException();
+
+		else {
+			element = this.top();
+			this.top.removeLast();
+		}
+
+		return element;
 	}
 
 	@Override
 	public T top() {
-		// TODO Implement the method
-		throw new UnsupportedOperationException("Method not implemented");
+		T result = null;
+
+		if(!isEmpty()){
+			T[] array = top.toArray();
+			result = array[array.length  - 1];
+		}
+
+		return result;
 	}
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Implement the method
-		throw new UnsupportedOperationException("Method not implemented");
+		return this.top.isEmpty();
 	}
 
 	@Override
 	public boolean isFull() {
-		// TODO Implement the method
-		throw new UnsupportedOperationException("Method not implemented");
+		return this.top.size() == this.size;
 	}
 
 }
