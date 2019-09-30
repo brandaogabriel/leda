@@ -122,8 +122,21 @@ public class HashtableClosedAddressImpl<T> extends
 
 				if(this.table[hash] != null){
 
-					if(((LinkedList<T>) this.table[hash]).contains(element))
-						result = element;
+
+					LinkedList<T> auxiliar = (LinkedList<T>) this.table[hash];
+
+					int indice = 0;
+					boolean achou = false;
+
+					while(!achou && indice < auxiliar.size()){
+
+						if(auxiliar.get(indice).equals(element)){
+							result = auxiliar.get(indice);
+							achou = true;
+						}
+
+						indice++;
+					}
 
 
 				}
