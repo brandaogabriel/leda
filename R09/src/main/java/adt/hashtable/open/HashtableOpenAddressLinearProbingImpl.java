@@ -94,11 +94,11 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 			int hash;
 			boolean find = false;
 
-			while(!find && i < size()){
+			while(!find && i < this.table.length){
 
 				hash = getHash(element, i++);
-					
-				if(this.table[hash] == null || this.table[hash].equals(deletedElement))
+
+				if(this.table[hash] == null)
 					find = true;
 
 				else if(this.table[hash].equals(element)){
