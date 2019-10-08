@@ -20,9 +20,9 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 
 	@Override
 	public void insert(T element) {
-		if (element != null) {
+		if (!this.isFull()) {
 
-			if (!this.isFull() && indexOf(element) == -1) {
+			if (element != null && indexOf(element) == -1) {
 
 				int i = 0;
 				boolean insert = false;
@@ -36,17 +36,12 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 						this.table[hash] = element;
 						this.elements++;
 
-
 					} else
 						this.COLLISIONS++;
-
 				}
-
 			}
-
-			else throw new HashtableOverflowException();
-
 		}
+        else throw new HashtableOverflowException();
 
 	}
 
@@ -76,11 +71,8 @@ public class HashtableOpenAddressLinearProbingImpl<T extends Storable> extends
 
 				if(hash != -1)
 					result = (T) this.table[hash];
-
 			}
-
 		}
-
 		return result;
 	}
 

@@ -20,9 +20,9 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 
 	@Override
 	public void insert(T element) {
-		if (element != null) {
+		if (!this.isFull()) {
 
-			if (!this.isFull() && indexOf(element) == -1) {
+			if (element != null && indexOf(element) == -1) {
 
 				int i = 0;
 				boolean insert = false;
@@ -36,17 +36,12 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 						this.table[hash] = element;
 						this.elements++;
 
-
 					} else
 						this.COLLISIONS++;
-
 				}
-
 			}
-
-			else throw new HashtableOverflowException();
-
 		}
+        else throw new HashtableOverflowException();
 
 	}
 

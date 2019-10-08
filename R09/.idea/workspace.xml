@@ -1,164 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c0cea1e-4696-4581-95b7-294884424a4e" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="305bc953-bf17-4414-abad-3891683b7554" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../R08/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/118210853-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210853-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/118210853.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118210853.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1851870146">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="9" />
-          <entry key="log" value="1" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="154" />
-          <entry key="xml" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="154" />
-          <entry key="XML" value="11" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="100" column="43" lean-forward="true" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="53" />
-    <option name="width" value="1390" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R09-01-Rot-TabelaHash-EndAberto-environment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R09-01-Rot-TabelaHash-EndAberto-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R09-01-Rot-TabelaHash-EndAberto-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R09-01-Rot-TabelaHash-EndAberto-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R09-01-Rot-TabelaHash-EndAberto-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R09-01-Rot-TabelaHash-EndAberto-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
-              <item name="open" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1RtYqT9tBJ1jbt6FfeEXjODOS4b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570481681059" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTestHashtableOpenAddressQuadraticProbing">
+  <component name="RunManager" selected="JUnit.StudentTestHashtableOpenAddressLinearProbing">
     <configuration name="StudentTestHashtableOpenAddressLinearProbing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -183,6 +59,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.hashtable.open" />
       <option name="MAIN_CLASS_NAME" value="adt.hashtable.open.StudentTestHashtableOpenAddressLinearProbing" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,18 +74,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.hashtable.open" />
       <option name="MAIN_CLASS_NAME" value="adt.hashtable.open.StudentTestHashtableOpenAddressQuadraticProbing" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.StudentTestHashtableOpenAddressLinearProbing" />
-      <item itemvalue="JUnit.StudentTestHashtableOpenAddressQuadraticProbing" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTestHashtableOpenAddressQuadraticProbing" />
         <item itemvalue="JUnit.StudentTestHashtableOpenAddressLinearProbing" />
+        <item itemvalue="JUnit.StudentTestHashtableOpenAddressQuadraticProbing" />
       </list>
     </recent_temporary>
   </component>
@@ -217,142 +91,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c0cea1e-4696-4581-95b7-294884424a4e" name="Default Changelist" comment="" />
-      <created>1570480114287</created>
+      <changelist id="305bc953-bf17-4414-abad-3891683b7554" name="Default Changelist" comment="" />
+      <created>1570488049225</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570480114287</updated>
+      <updated>1570488049225</updated>
+      <workItem from="1570488050579" duration="245000" />
+      <workItem from="1570566580818" duration="411000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 17h 39m 43s.xml">
-      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 17h 48m 06s.xml">
-      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressLinearProbing - 2019.10.07 at 17h 48m 14s.xml">
-      <configuration name="StudentTestHashtableOpenAddressLinearProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressLinearProbing - 2019.10.07 at 17h 50m 48s.xml">
-      <configuration name="StudentTestHashtableOpenAddressLinearProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 17h 50m 54s.xml">
-      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressLinearProbing - 2019.10.07 at 17h 51m 54s.xml">
-      <configuration name="StudentTestHashtableOpenAddressLinearProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 17h 52m 00s.xml">
-      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressLinearProbing - 2019.10.07 at 17h 52m 52s.xml">
-      <configuration name="StudentTestHashtableOpenAddressLinearProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 17h 52m 56s.xml">
-      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTestHashtableOpenAddressQuadraticProbing - 2019.10.07 at 17h 53m 01s.xml">
-      <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" configurationId="JUnit" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32977587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/AbstractHashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/118210853-send.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="100" column="43" lean-forward="true" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
