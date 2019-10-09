@@ -41,13 +41,13 @@ public class QueueImpl<T> implements Queue<T> {
 		}
 		else throw new QueueOverflowException();
 	}
-//	[1, 2]
+
 	@Override
 	public T dequeue() throws QueueUnderflowException {
 		if(!isEmpty()) {
 			T element = array[0];
-			tail--;
 			shiftLeft();
+			tail--;
 			return element;
 		}
 		throw new QueueUnderflowException();

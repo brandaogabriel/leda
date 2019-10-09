@@ -19,9 +19,7 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
    public int size() {
 
       int tamanho = 0;
-
       if (!isEmpty())
-
          tamanho = 1 + this.next.size();
 
       return tamanho;
@@ -36,11 +34,9 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
       if (element != null && !isEmpty()) {
 
          if (this.data.equals(element))
-
             number = this.data;
 
          else
-
             number = this.next.search(element);
 
       }

@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="305bc953-bf17-4414-abad-3891683b7554" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../R08/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../R08/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R08/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R07/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R07/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/target/classes/adt/hashtable/closed/HashtableClosedAddressImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/target/classes/adt/hashtable/closed/HashtableClosedAddressImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/118210853-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210853-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/118210853.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118210853.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +95,10 @@
       <updated>1570488049225</updated>
       <workItem from="1570488050579" duration="245000" />
       <workItem from="1570566580818" duration="411000" />
+      <workItem from="1570567240559" duration="31000" />
+      <workItem from="1570567866720" duration="593000" />
+      <workItem from="1570579461685" duration="229000" />
+      <workItem from="1570579779461" duration="25000" />
     </task>
     <servers />
   </component>

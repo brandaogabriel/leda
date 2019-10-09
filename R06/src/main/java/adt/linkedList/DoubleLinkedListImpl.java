@@ -49,7 +49,8 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements 
 
 	@Override
 	public void remove(T element) {
-		if (element != null) {
+
+		if (element != null && !this.isEmpty()) {
 			if (this.getHead().getData().equals(element))
 				this.removeFirst();
 			else if (this.last.getData().equals(element))

@@ -69,21 +69,20 @@ public class HashtableClosedAddressImpl<T> extends
 	@Override
 	public void insert(T element) {
 
-		if(element != null){
+		if(element != null && indexOf(element) == -1){
 
 			int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
 
 			if(this.table[hash] == null)
 				this.table[hash] = new LinkedList<T>();
 
-			else
-				this.COLLISIONS++;
-
 			((LinkedList<T>)this.table[hash]).add(element);
+
+			if (((LinkedList<T>) this.table[hash]).size() > 1)
+				this.COLLISIONS++;
 
 			this.elements++;
 		}
-
 
 	}
 
@@ -96,18 +95,13 @@ public class HashtableClosedAddressImpl<T> extends
 
 				int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
 
-				if(this.table[hash] != null && ((LinkedList<T>) this.table[hash]).size() > 1)
-					this.COLLISIONS--;
-
 				((LinkedList<T>) this.table[hash]).remove(element);
 
 				this.elements--;
 
 			}
 
-
 		}
-
 
 	}
 
@@ -137,7 +131,6 @@ public class HashtableClosedAddressImpl<T> extends
 
 						indice++;
 					}
-
 
 				}
 
