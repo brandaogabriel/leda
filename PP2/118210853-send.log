@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-17T15:26:47.885-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 150.165.42.177 at 17-10-2019 15*26*47</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-17T15:32:31.181-0300</date>
+  <logger>GABRIEL DE LACERDA BRANDAO</logger>
+  <level>FINE</level>
+  <message>File 118210853-GABRIEL DE LACERDA BRANDAO.zip was received. It was sent by GABRIEL DE LACERDA BRANDAO from IP 150.165.42.177 at 17-10-2019 15*32*31</message>
+</record>
