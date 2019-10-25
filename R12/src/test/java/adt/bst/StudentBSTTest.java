@@ -2,6 +2,7 @@ package adt.bst;
 
 import static org.junit.Assert.*;
 
+import adt.bst.extended.SortComparatorBSTImpl;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ import adt.bt.BTNode;
 
 public class StudentBSTTest {
 
-	private BSTImpl<Integer> tree;
+	private BST<Integer> tree;
 	private BTNode<Integer> NIL = new BTNode<Integer>();
 
 	private void fillTree() {
@@ -22,7 +23,7 @@ public class StudentBSTTest {
 
 	@Before
 	public void setUp() {
-		tree = new BSTImpl<>();
+		tree = new SortComparatorBSTImpl<Integer>((o1, o2) -> o1 - o2);
 	}
 
 	@Test

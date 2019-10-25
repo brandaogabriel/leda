@@ -84,8 +84,18 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 
 	@Override
 	public T[] sort(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		this.root = new BSTNode<>();
+
+		if(array != null) {
+
+			for (T element : array)
+				insert(element);
+
+		}
+
+		array = order();
+
+		return array;
 	}
 
 
