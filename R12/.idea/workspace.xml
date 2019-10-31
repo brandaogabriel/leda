@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cde04db-dd49-40ed-b098-dd0d25e16aa6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/118210853-send.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/Recursao.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/Revisao de Java (JUnit).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/Revisao de Java (Recursividade).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/ExemplosRecursao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/GeradorSequencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/MetodosRecursivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/recursao/Pppp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/solucao/recursao/MetodosRecursivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/solucao/vetor/TesteVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/solucao/vetor/Vetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/vetor/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/vetor/TestarVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/src/main/java/vetor/Vetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/118210853.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/META-INF/maven/br.edu.ufcg.ccc/submission/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/META-INF/maven/br.edu.ufcg.ccc/submission/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/recursao/ExemplosRecursao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/recursao/GeradorSequencia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/recursao/MetodosRecursivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/recursao/Pppp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/solucao/recursao/MetodosRecursivos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/solucao/vetor/ComparadorMaximo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/solucao/vetor/ComparadorMinimo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/solucao/vetor/TesteVetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/solucao/vetor/Vetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/vetor/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/vetor/TestarVetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/classes/vetor/Vetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/target/submission-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR3-01-Roteiro-Revisao-JUnit-environment/walkmod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +15,10 @@
     <session id="-1707570259">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,7 +50,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,13 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
-                <element signature="e#2232#2233#0" expanded="true" />
-                <element signature="e#2267#2268#0" expanded="true" />
-              </folding>
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -116,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
+            <state relative-caret-position="90">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
@@ -147,8 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +168,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -247,18 +203,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -266,14 +218,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -333,13 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -347,16 +295,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-          </folding>
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
