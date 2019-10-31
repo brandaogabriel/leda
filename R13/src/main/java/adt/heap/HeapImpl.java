@@ -3,6 +3,7 @@ package adt.heap;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 
 import util.Util;
 
@@ -111,7 +112,6 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 			heap = Arrays.copyOf(heap, heap.length + INCREASING_FACTOR);
 		}
 
-
 		if(element != null) {
 
 			int position = ++index;
@@ -130,8 +130,16 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
 	@Override
 	public void buildHeap(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(array != null){
+
+			this.heap = array;
+			this.index = array.length - 1;
+
+			for(int i = size() / 2; i > - 1; i--)
+				heapify(i);
+
+		}
+
 	}
 
 	@Override
@@ -161,8 +169,19 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
 	@Override
 	public T[] heapsort(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		Comparator<T> oldComparator = this.comparator;
+		this.setComparator((a, b) -> a.compareTo(b));
+		buildHeap(array);
+
+		List<T> aux = new ArrayList<>();
+
+		for(int i = 0; i < array.length; i++)
+			aux.add(extractRootElement());
+
+		this.heap = (T[]) (new Comparable[INITIAL_SIZE]);
+		this.setComparator(oldComparator);
+
+		return aux.toArray((T[]) new Comparable[0]);
 	}
 
 	@Override
