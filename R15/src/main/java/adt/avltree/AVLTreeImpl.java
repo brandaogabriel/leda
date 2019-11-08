@@ -13,7 +13,7 @@ import adt.bt.Util;
  * @param <T>
  */
 public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
-		AVLTree<T> {
+        AVLTree<T> {
 
 	// TODO Do not forget: you must override the methods insert and remove
 	// conveniently.
@@ -112,18 +112,104 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 			else
 				insert(element, (BSTNode<T>) node.getRight());
 
-			rebalance(node);
-
 		}
+
+		this.rebalanceUp(node);
 
 	}
 
 	@Override
-	public void remove(T element){
+	public void remove(T element) {
+		if (element != null && !isEmpty()) {
 
-		BSTNode<T> aux = super.search(element);
-		super.remove(element);
-		this.rebalanceUp(aux);
+			BSTNode<T> node = search(element);
+
+			if (!node.isEmpty()) {
+
+				if (node.isLeaf()) {
+
+					node.setData(null);
+					this.rebalanceUp(node);
+
+				}
+
+				else if (node.getLeft().isEmpty() || node.getRight().isEmpty()) {
+
+					//No a ser removido tem um filho
+
+					BSTNode<T> parent = (BSTNode<T>) node.getParent();
+
+					if (parent != null) {
+
+						if (!parent.getLeft().equals(node)) {
+
+							if (!node.getLeft().isEmpty()) {
+
+								parent.setRight(node.getLeft());
+								node.getLeft().setParent(parent);
+
+							}
+
+							else {
+
+								parent.setRight(node.getRight());
+								node.getRight().setParent(parent);
+
+							}
+
+						}
+
+						else {
+
+							if (!node.getLeft().isEmpty()) {
+
+								parent.setLeft(node.getLeft());
+								node.getLeft().setParent(parent);
+
+							}
+
+							else {
+
+								parent.setLeft(node.getRight());
+								node.getRight().setParent(parent);
+
+							}
+
+						}
+
+					}
+
+					else {
+
+						//Elemento a ser removido esta na raiz
+
+						if (node.getLeft().isEmpty())
+							this.root = (BSTNode<T>) node.getRight();
+
+						else
+							this.root = (BSTNode<T>) node.getLeft();
+
+						this.root.setParent(null);
+
+					}
+
+					this.rebalanceUp(node);
+
+				}
+
+				else {
+
+					//No a ser removido tem 2 filhos
+
+					T sucessor = sucessor(node.getData()).getData();
+					remove(sucessor);
+					node.setData(sucessor);
+
+				}
+
+			}
+
+		}
 
 	}
 }

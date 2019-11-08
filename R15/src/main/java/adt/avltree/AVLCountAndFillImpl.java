@@ -3,6 +3,8 @@ package adt.avltree;
 import adt.bst.BSTNode;
 import adt.bt.Util;
 
+import java.util.*;
+
 public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 		AVLTreeImpl<T> implements AVLCountAndFill<T> {
 
@@ -96,10 +98,40 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 
 	@Override
 	public void fillWithoutRebalance(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (array != null) {
+
+			Arrays.sort(array);
+
+			Map<Integer, List<T>> levels = new TreeMap<>();
+
+			auxFillWithoutRebalance(levels, 0, array.length - 1, 0, array);
+
+			for (List<T> list : levels.values())
+				list.forEach(t -> super.insert(t));
+
+		}
 	}
 
+	private void auxFillWithoutRebalance(Map<Integer, List<T>> map, int leftIndex, int rightIndex, int level, T[] array) {
+		if (leftIndex <= rightIndex) {
+
+			int middle = (leftIndex + rightIndex) / 2;
+
+			if (map.containsKey(level))
+
+				map.get(level).add(array[middle]);
+
+			else {
+
+				map.put(level, new ArrayList<>());
+				map.get(level).add(array[middle]);
+
+			}
+
+			auxFillWithoutRebalance(map, leftIndex, middle - 1, level + 1, array);
+			auxFillWithoutRebalance(map, middle + 1, rightIndex, level + 1, array);
+		}
+	}
 
 
 }
