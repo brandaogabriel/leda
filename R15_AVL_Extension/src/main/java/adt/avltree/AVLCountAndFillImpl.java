@@ -98,40 +98,26 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 
 	@Override
 	public void fillWithoutRebalance(T[] array) {
-		if (array != null) {
+		if (array != null && array.length > 0) {
 
 			Arrays.sort(array);
-
-			Map<Integer, List<T>> levels = new TreeMap<>();
-
-			auxFillWithoutRebalance(levels, 0, array.length - 1, 0, array);
-
-			for (List<T> list : levels.values())
-				list.forEach(t -> super.insert(t));
+			addWithoutRebalance(array, 0, array.length);
 
 		}
+
 	}
 
-	private void auxFillWithoutRebalance(Map<Integer, List<T>> map, int leftIndex, int rightIndex, int level, T[] array) {
-		if (leftIndex <= rightIndex) {
+	private void addWithoutRebalance(T[] array, int begin, int end) {
 
-			int middle = (leftIndex + rightIndex) / 2;
+		if(begin != end){
 
-			if (map.containsKey(level))
+			int middle = (end + begin) / 2;
+			superInsert(array[middle]);
+			addWithoutRebalance(array, begin, middle);
+			addWithoutRebalance(array, middle + 1, end);
 
-				map.get(level).add(array[middle]);
-
-			else {
-
-				map.put(level, new ArrayList<>());
-				map.get(level).add(array[middle]);
-
-			}
-
-			auxFillWithoutRebalance(map, leftIndex, middle - 1, level + 1, array);
-			auxFillWithoutRebalance(map, middle + 1, rightIndex, level + 1, array);
 		}
-	}
 
+	}
 
 }

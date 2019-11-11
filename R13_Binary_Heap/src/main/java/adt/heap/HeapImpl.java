@@ -87,18 +87,18 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		int r = right(position);
 		int largest;
 
-		if(l < size() && this.comparator.compare(this.heap[position], this.heap[l]) > 0)
+		if(l <= size() && this.heap[l] != null && this.comparator.compare(this.heap[l], this.heap[position]) > 0)
 			largest = l;
 
 		else
 			largest = position;
 
-		if(r < size() && this.comparator.compare(this.heap[largest], this.heap[r]) > 0)
+		if(r <= size() &&  this.heap[r] != null && this.comparator.compare(this.heap[r], this.heap[largest]) > 0)
 			largest = r;
 
 		if(largest != position){
 
-			Util.swap(this.heap, position, largest);
+			Util.swap(this.heap, largest, position);
 			heapify(largest);
 
 		}

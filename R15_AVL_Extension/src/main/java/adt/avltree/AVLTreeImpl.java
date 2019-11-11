@@ -118,6 +118,10 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 
 	}
 
+	public void superInsert(T element){
+		super.insert(element);
+	}
+
 	@Override
 	public void remove(T element) {
 		if (element != null && !isEmpty()) {
