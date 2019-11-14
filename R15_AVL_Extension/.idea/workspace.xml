@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59648fef-88ee-4c86-b7e4-6513a5beeeca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R13_Binary_Heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R13_Binary_Heap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R13_Binary_Heap/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R13_Binary_Heap/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R17_Br_Tree/submission.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLCountAndFillImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/avltree/AVLCountAndFillImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/bst/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/bst/BSTNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/bt/BT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/bt/BTNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/bt/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/rbtree/RBNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/rbtree/RBTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/main/java/adt/rbtree/RBTreeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/src/test/java/adt/rbtree/StudentTestRBTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17_RedBlack_Tree/walkmod.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +44,15 @@
   <component name="ProjectId" id="1TJHosWsqa0ZrU4TsqW642s6TVi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573152411916" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R17_Br_Tree" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="adt.bst" />
       <recent name="adt.avltree" />
     </key>
   </component>
@@ -88,6 +102,8 @@
       <updated>1573147913187</updated>
       <workItem from="1573171470498" duration="2486000" />
       <workItem from="1573496184617" duration="1314000" />
+      <workItem from="1573768703594" duration="656000" />
+      <workItem from="1573772587100" duration="954000" />
     </task>
     <servers />
   </component>
